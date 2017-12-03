@@ -4,30 +4,30 @@
 #' @param NA No paramater needed. Use this function with ggplot2
 #' @keywords theme ggplot2
 #' @usage Append the function to ggplot2 statements as you would do for ggthemes,
-#' @note Fonts needed: EB Garamond (or equivalent). Bodoni 72 (or equivalent). Birch Std(or equivalent)
+#' @note Fonts needed: EB Garamond (or equivalent). Birch Std(or equivalent)
 #' @export
 
 
-theme_xipu <- function (base_size = 12, base_family = "EB Garamond")
+theme_xipu <- function (base_size = 12, base_family = "serif")
 {
   #colorhex <- ggthemes_data$wsj$bg[color]
   (theme_foundation(base_size = base_size, base_family = base_family) +
      theme(line = element_line(linetype = 1, colour = "black"),
            rect = element_rect(fill = '#eeeae5', linetype = 0,
                                colour = NULL), text = element_text(colour = "black"),
-           plot.title = element_text(family = "EB Garamond ExtraBold",size = 22,
+           plot.title = element_text(family = "EB Garamond", face='bold',size = 22,
                                      margin = margin(0,0,10,0),
                                      hjust = 0),
            plot.subtitle = element_text(family = "EB Garamond", size = 18,margin = margin(5,0,7,0)),
-           plot.caption = element_text(family = 'EB Garamond', face='italic',size=12,
+           plot.caption = element_text(family = 'Times New Roman', face='italic',size=8,
                                        colour = '#845224',
                                        margin=margin(19,0,0,0)),
 
-           axis.title = element_text(family = 'Bodoni 72 Book',size = 12),
+           axis.title = element_text(family = 'EB Garamond',size = 12),
            axis.title.y = element_text(margin = margin(r=17)),
            axis.title.x = element_text(margin = margin(t=17)),
 
-           axis.text = element_text(face = "bold",size = rel(0.9)),
+           axis.text = element_text(size = rel(0.9)),
            axis.text.x = element_text(colour = NULL),
            axis.text.y = element_text(colour = NULL),
            axis.ticks = element_line(colour = NULL),
