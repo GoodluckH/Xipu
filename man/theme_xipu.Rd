@@ -13,7 +13,7 @@ Append the function to ggplot2 statements as you would do for ggthemes,
 This function allows you to plot a high standard plot
 }
 \note{
-Fonts needed: Garamond Premier Pro (or equivalent). Bodoni 72 (or equivalent). Birch Std(or equivalent)
+Fonts needed: EB Garamond (or equivalent). Birch Std(or equivalent)
 }
 \keyword{ggplot2}
 \keyword{theme}
