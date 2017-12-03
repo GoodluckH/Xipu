@@ -1,6 +1,6 @@
 Package: Xipu
 Title: Graph style accompanying with ggplot2 for Xipu Li only.
-Version: 0.0.0.9000
+Version: 0.0.1.1000
 Authors@R: person("Xipu", "Li", email = "robinl98@icloud.com", role = c("aut", "cre"))
 Description: Professional looking graph for Xipu Li only. The graph has preset fonts and colour palette that are carefully tuned and curated by Xipu.
 Depends: R (>= 3.4.2),
